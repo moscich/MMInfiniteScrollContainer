@@ -1,0 +1,7 @@
+pod "InfiniteScroll", :path => "../InfiniteScroll.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
