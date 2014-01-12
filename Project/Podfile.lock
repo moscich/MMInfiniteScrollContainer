@@ -1,0 +1,20 @@
+PODS:
+  - AFNetworking (1.3.3)
+  - InfiniteScroll (0.1.0)
+  - LoremPixel (0.0.1):
+    - AFNetworking (~> 1.3.3)
+
+DEPENDENCIES:
+  - InfiniteScroll (from `../InfiniteScroll.podspec`)
+  - LoremPixel
+
+EXTERNAL SOURCES:
+  InfiniteScroll:
+    :path: ../InfiniteScroll.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: 61fdd49e2ffe6380378df37b3b6e70630bb9dd66
+  InfiniteScroll: 69504542cee3f044440c00fef18054b9f8a958a0
+  LoremPixel: 354682ead8c478f8af8224d609d912639f4df188
+
+COCOAPODS: 0.29.0
