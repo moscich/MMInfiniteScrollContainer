@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "UIImageView+LoremPixel.h"
+#import "ShowcaseDemoViewController.h"
 
 @implementation AppDelegate
 
@@ -17,6 +17,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+    ShowcaseDemoViewController *showcaseDemoViewController = [[ShowcaseDemoViewController alloc] init];
+    self.window.rootViewController = showcaseDemoViewController;
+    [self.window addSubview:showcaseDemoViewController.view];
 
     return YES;
 }

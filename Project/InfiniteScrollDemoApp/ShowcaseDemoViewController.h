@@ -7,6 +7,5 @@
 #import <Foundation/Foundation.h>
 
 
-@interface LoopingScrollContainerView : UIScrollView
-
+@interface ShowcaseDemoViewController : UIViewController
 @end

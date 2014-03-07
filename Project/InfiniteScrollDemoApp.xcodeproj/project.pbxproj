@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F7CF57B5831455799F70310 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A5E3FE781F4EDA8B0B69AB /* libPods.a */; };
+		49F442CA9A9790B726B8C8AF /* ShowcaseDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F44102DB9B249F27FA2C4C /* ShowcaseDemoViewController.m */; };
 		C13223351882F599006D3869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13223341882F599006D3869 /* Foundation.framework */; };
 		C13223371882F599006D3869 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13223361882F599006D3869 /* CoreGraphics.framework */; };
 		C13223391882F599006D3869 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13223381882F599006D3869 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		17A5E3FE781F4EDA8B0B69AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F44102DB9B249F27FA2C4C /* ShowcaseDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowcaseDemoViewController.m; sourceTree = "<group>"; };
+		49F441A6818F6E391164E0CB /* ShowcaseDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowcaseDemoViewController.h; sourceTree = "<group>"; };
 		C13223311882F599006D3869 /* InfiniteScrollDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteScrollDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13223341882F599006D3869 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C13223361882F599006D3869 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				C13223441882F599006D3869 /* AppDelegate.m */,
 				C13223461882F599006D3869 /* Images.xcassets */,
 				C132233B1882F599006D3869 /* Supporting Files */,
+				49F44102DB9B249F27FA2C4C /* ShowcaseDemoViewController.m */,
+				49F441A6818F6E391164E0CB /* ShowcaseDemoViewController.h */,
 			);
 			path = InfiniteScrollDemoApp;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			files = (
 				C13223451882F599006D3869 /* AppDelegate.m in Sources */,
 				C13223411882F599006D3869 /* main.m in Sources */,
+				49F442CA9A9790B726B8C8AF /* ShowcaseDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
